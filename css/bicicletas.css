@@ -1,0 +1,120 @@
+.header-1{
+    display: flexbox;
+    width:100%;
+
+}
+
+.col-100{
+    width:100%;
+    float: left;
+    position:relative;
+}
+
+.menu-urls{
+    border-bottom: 3px solid hsl(21, 79%, 42%);
+}
+
+.header-2{
+    background-color: #ffffff;
+    width: 100%;
+    margin:0 auto;
+}
+
+.menu ul{
+    text-align: center;
+}
+
+.menu ul li{
+    text-align: center;
+    display: inline-block;
+    margin-left: 30px;
+}
+.menu ul li a{
+    color: #3c3021;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.menu ul li a:hover{
+    color: #8c2b2b;
+}
+
+.menu{
+    width: 90%;
+    float: left;
+    background: linear-gradient(to bottom, #484848, #ffffff);
+}
+
+.voltar{
+    width:10%;
+    float:right;
+}
+
+.voltar ul li{
+    display: inline-block;
+}
+
+.voltar ul li a{
+    color:orange;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.voltar ul li a:hover{
+    color: #cc1e1e;
+}
+
+#tabela{
+    display: flexbox;
+    width: 100%;
+}
+
+#tabela tr{
+    height: 170px;
+}
+
+.titulo{
+    text-align: center;
+}
+
+h3{
+    color:red;
+}
+
+#celula_1{
+    width: 33.3%;
+    text-align: center
+}
+
+#celula_2{
+    width: 33.3%;
+    text-align: center
+}
+
+#celula_3{
+    width: 33.3%;
+    text-align: center;
+}
+
+#celula_4{
+    width: 33.3%;
+    text-align: center;
+}
+
+.footer {
+    position:absolute;
+    width:99%;
+    height: 5px;
+}
+
+#tabela_rodape{
+    display: flexbox;
+    width: 100%;
+    background: linear-gradient(to right, #9b3a19, #FFB69D);
+}
+
+#tabela_rodape td{
+    width:33.3%;
+    text-align: center;
+}
